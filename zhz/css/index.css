@@ -5,11 +5,16 @@
 * @Last Modified time: 2020-12-11 22:49:39
 */
 
-
+.all{
+	width: 1518px;
+	margin: auto;
+	position: relative;
+	background-image: url('../image/bgd.jpg');
+}
 #after{
 	width: 1518px;
 	height: 1500px;
-	background-image: url('../image/bgd.jpg')
+	/* background-image: url('../image/bgd.jpg'); */
 }
 .header{
 	width: 1519.2px;
@@ -76,6 +81,7 @@
 	position: absolute;
 	right: 200px;
 	background-color: rgba(163, 152, 152, 0.5);
+
 }
 
 .left{
@@ -154,25 +160,29 @@ h2{
 h3{
 	color: #0a0d68;
 }
-p{
+/* p{
 	color: #6a1c14;
 	font-weight: bolder;
-}
+} */
 
 #syn{
 	width: 700px;
+	height: 300px;
 	padding: 20px;
 	border: 5px solid #d58dcd;
-	position: absolute;
-	left: 70px; 
+	margin: 20px auto;
+	/* position: absolute;
+	left: 70px;  */
+	overflow: auto;
 }
+
 #act{
 	width: 700px;
+	height: 300px;
 	padding: 20px;
 	border: 5px solid #d58dcd;
-	position: absolute;
-	left: 70px;
-	top: 630px;
+	margin: 20px auto;
+	overflow: auto;
 }
 #act p{
 	text-align: center;
@@ -180,9 +190,10 @@ p{
 
 #btc{
 	width: 700px;
+	height: 280px;
 	padding: 20px;
 	border: 5px solid #d58dcd;
-	position: absolute;
-	left: 70px;
-	top: 1000px;
+	margin: 20px auto;
+	overflow: auto;
+	
 }
